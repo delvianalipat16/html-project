@@ -1,0 +1,54 @@
+/* Styling Formulir */
+.form-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul Formulir */
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+/* Input Field */
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Efek saat input aktif */
+.form-container input:focus,
+.form-container textarea:focus {
+    border-color: #000dff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Tombol Kirim */
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    background: #007BFF;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Efek Hover pada Tombol */
+.form-container button:hover {
+    background: #0056b3;
+}
